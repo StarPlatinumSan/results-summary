@@ -1,3 +1,79 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+
+p {
+	margin: 0;
+}
+
+.resultSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 20em;
+	background-color: hsl(241, 81%, 54%);
+	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	border-radius: 0 0 25px 25px;
+}
+
+.title {
+	margin: 0;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	font-weight: 700;
+	color: hsl(241, 100%, 89%);
+}
+
+.circle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+	width: 45vw;
+	height: 45vw;
+	border-radius: 100%;
+}
+
+.score {
+	font-size: 3rem;
+	color: hsl(0, 0%, 100%);
+	font-weight: 700;
+}
+
+.outOf {
+	color: hsl(221, 100%, 96%, 50%);
+}
+
+.texte {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+}
+
+.great {
+	color: hsl(221, 100%, 96%, 90%);
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin: 3%;
+}
+
+.description {
+	color: hsl(221, 100%, 96%, 50%);
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* TODO END */
+
 .attribution {
 	position: absolute;
 	bottom: 0;
